@@ -1,1 +1,3 @@
-# Projeto-Individual-Senac
+# PTI
+Projeto criado para um trabalho da faculdade. Consiste em uma página web que serve como uma landing page. Primeiramente precisei selecione um ramo de negócio de pequeno porte, que foi um pintor de quadros, e realizar uma prototipação da página. Depois implementei o site utilizando as linguagens HTML e CSS.
+
