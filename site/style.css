@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #07083b;
+    background-color: #d2f4ff;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #07083b;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    display: block;
+    margin-left: 20px;
+}
+
+header img {
+    height: 60px;
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #daf6ff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #daf6ff;
+}
+
+/* Home */
+#home {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#home h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#home img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    line-height: 1.5;
+    text-align: justify;
+    width: 80%;
+}
+
+/* Seção Contato */
+#contato {
+    background-color: #ddd;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #07083b;
+    color: #daf6ff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}

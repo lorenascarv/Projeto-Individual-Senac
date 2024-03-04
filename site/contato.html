@@ -1,0 +1,63 @@
+<section id="contato">
+    <h2>Contato</h2>
+    <form action="#">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="text" name="telefone" placeholder="Telefone" required>
+        <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    <style>
+        #contato {
+            background-color: #d2f4ff;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #contato form {
+            width: 80%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #6f9cad;
+            border-radius: 10px;
+        }
+
+        #contato form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #6f9cad;
+            border-radius: 5px;
+        }
+
+        #contato form textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #6f9cad;
+            border-radius: 5px;
+        }
+
+        #contato form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #6f9cad;
+            border-radius: 5px;
+            background-color: #07083b;
+            color: #d2f4ff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #contato form button:hover {
+            background-color: #6f9cad;
+            color: #07083b;
+        }
+    </style>
+</section>
